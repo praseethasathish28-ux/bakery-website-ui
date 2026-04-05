@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bake Theory | Artisan Bakery & Patisserie</title>
+    <meta name="description"
+        content="Experience the finest artisan cakes, brownies, and desserts crafted with premium ingredients and love at Bake Theory.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="nav container">
+            <div class="logo-wrapper">
+                <a href="index.html" class="logo">BAKE THEORY</a>
+                <span class="tagline">Happiness tastes like this</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="ingredients.html">Ingredients</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="menu-icon" id="menuToggle">
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE NAVIGATION OVERLAY -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="ingredients.html">Ingredients</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- FULL-SCREEN HERO SECTION -->
+    <div class="hero-wrapper">
+        <div class="hero-bg-container">
+            <img src="https://images.unsplash.com/photo-1557925923-33b27f891f88?q=80&w=2000&auto=format&fit=crop"
+                alt="Bakery Studio" class="hero-bg">
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-grid">
+            <div class="hero-content" data-reveal="fade-right">
+                <h1><span>Handcrafted Excellence</span>Bake Theory</h1>
+                <p>The finest artisan patisserie where traditional craftsmanship meets modern luxury.</p>
+                <div class="hero-btns">
+                    <a href="menu.html" class="btn btn-primary">Our Collections</a>
+                    <a href="https://wa.me/916382747688" target="_blank" class="btn btn-outline-white">Book a
+                        Tasting</a>
+                </div>
+            </div>
+
+            <!-- Signature Artisan Gallery -->
+            <div class="hero-item-wrapper" data-reveal="fade-left">
+                <button id="heroPrev" class="gallery-btn prev">←</button>
+                <img src="images/artisan-slice-box.jpg" alt="Signature Artisan Slice Box" class="hero-item"
+                    id="heroImage">
+                <button id="heroNext" class="gallery-btn next">→</button>
+                <div class="gallery-dots" id="galleryDots"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- INGREDIENTS SECTION -->
+    <section class="section" style="background: #1A0A10;">
+        <div class="container">
+            <span class="section-label" data-reveal="fade-up">Quality First</span>
+            <h2 class="section-title" data-reveal="fade-up" style="color: #fff;">The <span style="color: #D4AF37; font-style: italic;">Soul</span> of Our Bakes</h2>
+            <div class="grid-menu">
+                <div class="card-premium" data-reveal="fade-up">
+                    <div class="card-image-box">
+                        <img src="images/ing-1.png" alt="Belgian Chocolate">
+                    </div>
+                    <div class="card-info">
+                        <h3 style="color: #D4AF37;">Belgian Cocoa</h3>
+                        <p style="color: rgba(255,255,255,0.6);">Finest couverture chocolate with 70% cocoa solids for the richest flavor.</p>
+                        <a href="ingredients.html" style="color: #D4AF37; font-weight: 600; text-decoration: none; font-size: 14px;">Learn More →</a>
+                    </div>
+                </div>
+                <div class="card-premium" data-reveal="fade-up">
+                    <div class="card-image-box">
+                        <img src="images/ing-2.png" alt="Madagascar Vanilla">
+                    </div>
+                    <div class="card-info">
+                        <h3 style="color: #D4AF37;">Madagascar Vanilla</h3>
+                        <p style="color: rgba(255,255,255,0.6);">Organic Bourbon vanilla beans hand-picked for their deep, floral aroma.</p>
+                        <a href="ingredients.html" style="color: #D4AF37; font-weight: 600; text-decoration: none; font-size: 14px;">Learn More →</a>
+                    </div>
+                </div>
+                <div class="card-premium" data-reveal="fade-up">
+                    <div class="card-image-box">
+                        <img src="images/cake1.png" alt="Artisan Flour">
+                    </div>
+                    <div class="card-info">
+                        <h3 style="color: #D4AF37;">Artisan Flour</h3>
+                        <p style="color: rgba(255,255,255,0.6);">Stone-ground unbleached flour that preserves the natural spirit of grain.</p>
+                        <a href="ingredients.html" style="color: #D4AF37; font-weight: 600; text-decoration: none; font-size: 14px;">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY BAKE THEORY - TRUST SECTION -->
+    <section class="section" style="background: #2D0F21;">
+        <div class="container">
+            <span class="section-label" data-reveal="fade-up">Why Choose Us</span>
+            <h2 class="section-title" data-reveal="fade-up" style="color: #fff;">The <span style="color: #D4AF37; font-style: italic;">Bake Theory</span> Promise</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px; margin-top: 20px;" data-reveal="fade-up">
+                <div style="text-align: center; padding: 40px 20px;">
+                    <div style="font-size: 48px; color: #D4AF37; font-family: 'Playfair Display', serif; font-weight: 800;">100%</div>
+                    <h4 style="color: #fff; margin: 12px 0 8px; font-size: 16px;">Fresh Ingredients</h4>
+                    <p style="color: rgba(255,255,255,0.5); font-size: 14px; line-height: 1.6;">No preservatives. No shortcuts. Every ingredient is hand-selected for quality.</p>
+                </div>
+                <div style="text-align: center; padding: 40px 20px;">
+                    <div style="font-size: 48px; color: #D4AF37; font-family: 'Playfair Display', serif; font-weight: 800;">500+</div>
+                    <h4 style="color: #fff; margin: 12px 0 8px; font-size: 16px;">Happy Customers</h4>
+                    <p style="color: rgba(255,255,255,0.5); font-size: 14px; line-height: 1.6;">Trusted by hundreds of families for their most precious celebrations.</p>
+                </div>
+                <div style="text-align: center; padding: 40px 20px;">
+                    <div style="font-size: 48px; color: #D4AF37; font-family: 'Playfair Display', serif; font-weight: 800;">12</div>
+                    <h4 style="color: #fff; margin: 12px 0 8px; font-size: 16px;">Signature Flavours</h4>
+                    <p style="color: rgba(255,255,255,0.5); font-size: 14px; line-height: 1.6;">A curated selection of artisan recipes perfected over years of passion.</p>
+                </div>
+                <div style="text-align: center; padding: 40px 20px;">
+                    <div style="font-size: 48px; color: #D4AF37; font-family: 'Playfair Display', serif; font-weight: 800;">2hr</div>
+                    <h4 style="color: #fff; margin: 12px 0 8px; font-size: 16px;">Express Delivery</h4>
+                    <p style="color: rgba(255,255,255,0.5); font-size: 14px; line-height: 1.6;">Fresh from our studio to your doorstep within Salem city limits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section" style="background: #1A0A10;">
+        <div class="container">
+            <span class="section-label" data-reveal="fade-up">Happy Moments</span>
+            <h2 class="section-title" data-reveal="fade-up" style="color: #fff;">What Our <span style="color: #D4AF37; font-style: italic;">Customers</span> Say</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;" data-reveal="fade-up">
+                <div style="background: rgba(45,15,30,0.4); border: 1px solid rgba(212,175,55,0.12); border-radius: 24px; padding: 40px; backdrop-filter: blur(10px);">
+                    <div style="color: #D4AF37; font-size: 32px; margin-bottom: 16px; font-family: 'Playfair Display', serif;">★★★★★</div>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 15px; line-height: 1.8; margin-bottom: 24px; font-style: italic;">"The White Forest cake was absolutely stunning. My daughter's birthday was made unforgettable. Thank you Bake Theory!"</p>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #D4AF37, #B8860B); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 16px;">P</div>
+                        <div>
+                            <h4 style="color: #fff; font-size: 14px;">Priya Sharma</h4>
+                            <p style="color: rgba(255,255,255,0.4); font-size: 12px;">Salem, Tamil Nadu</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="background: rgba(45,15,30,0.4); border: 1px solid rgba(212,175,55,0.12); border-radius: 24px; padding: 40px; backdrop-filter: blur(10px);">
+                    <div style="color: #D4AF37; font-size: 32px; margin-bottom: 16px; font-family: 'Playfair Display', serif;">★★★★★</div>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 15px; line-height: 1.8; margin-bottom: 24px; font-style: italic;">"Best brownies I've ever had! The Belgian chocolate flavor is so rich and authentic. We order every weekend now."</p>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #D4AF37, #B8860B); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 16px;">R</div>
+                        <div>
+                            <h4 style="color: #fff; font-size: 14px;">Rahul Krishnan</h4>
+                            <p style="color: rgba(255,255,255,0.4); font-size: 12px;">Salem, Tamil Nadu</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="background: rgba(45,15,30,0.4); border: 1px solid rgba(212,175,55,0.12); border-radius: 24px; padding: 40px; backdrop-filter: blur(10px);">
+                    <div style="color: #D4AF37; font-size: 32px; margin-bottom: 16px; font-family: 'Playfair Display', serif;">★★★★★</div>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 15px; line-height: 1.8; margin-bottom: 24px; font-style: italic;">"Ordered a Rasmalai cake for our anniversary. The presentation was so elegant, it looked like a piece of art!"</p>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <div style="width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #D4AF37, #B8860B); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 16px;">A</div>
+                        <div>
+                            <h4 style="color: #fff; font-size: 14px;">Anitha Rajan</h4>
+                            <p style="color: rgba(255,255,255,0.4); font-size: 12px;">Salem, Tamil Nadu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INSTAGRAM / SOCIAL PROOF -->
+    <section class="section" style="background: #230B1E; text-align: center;">
+        <div class="container" data-reveal="fade-up">
+            <span class="section-label">Follow Us</span>
+            <h2 class="section-title" style="color: #fff;">Our <span style="color: #D4AF37; font-style: italic;">Studio</span> on Instagram</h2>
+            <p style="color: rgba(255,255,255,0.6); max-width: 500px; margin: 0 auto 40px;">Follow our journey and see the artistry behind every creation.</p>
+            <a href="https://instagram.com/_.fusionframe._" target="_blank" class="btn btn-primary" style="padding: 18px 50px; font-size: 14px;">@_.fusionframe._</a>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="section" style="background: #1A0A10; text-align: center;">
+        <div class="container" data-reveal="fade-up">
+            <span class="section-label">Explore More</span>
+            <h2 class="section-title" style="color: #fff;">Discover Our Full <span style="color: #D4AF37; font-style: italic;">Collection</span></h2>
+            <p style="color: rgba(255,255,255,0.6); max-width: 600px; margin: 0 auto 40px; font-size: 1.05rem; line-height: 1.8;">From signature cakes and fudgy brownies to premium slices — explore our complete artisan menu crafted just for you.</p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="menu.html" class="btn btn-primary" style="padding: 18px 50px; font-size: 14px;">View Full Menu</a>
+                <a href="https://wa.me/916382747688" target="_blank" class="btn btn-outline-white" style="padding: 18px 50px; font-size: 14px;">Order on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2 style="color: var(--secondary);">BAKE THEORY</h2>
+                <span class="tagline">"Happiness tastes like this"</span>
+                <p style="margin-top: 24px; color: rgba(255,255,255,0.6);">
+                    Crafting moments of pure joy through the art of
+                    artisan baking. Every creation is a testament to
+                    our passion for quality and elegance.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Full Menu</a>
+                <a href="ingredients.html">Our Ingredients</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Bulk Orders</a>
+            </div>
+            <div class="footer-links">
+                <h4>Reach Us</h4>
+                <p style="color: rgba(255,255,255,0.6);">📍 123 Baker's Street, Salem</p>
+                <p style="color: rgba(255,255,255,0.6);">📞 +91 63827 47688</p>
+                <p style="color: rgba(255,255,255,0.6);">✉️ hello@baketheory.com</p>
+            </div>
+        </div>
+        <div
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 40px; text-align: center; color: rgba(255,255,255,0.4); font-size: 13px;">
+            <p>© 2026 Bake Theory. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
