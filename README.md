@@ -35,7 +35,7 @@ It focuses on building real-world business websites that are simple, attractive,
 ---
 ## 🌐 Live Demo
 
-👉 Netlify: [View Bakery Website](baketheorypraseetha.netlify.app)
+👉 Netlify: [View Bakery Website](https://baketheorypraseetha.netlify.app/)
 
 👉 GitHub Pages: [View Bakery Website](https://praseethasathish28-ux.github.io/bakery-website-ui/)
 
