@@ -33,14 +33,12 @@ This project is part of my UI/UX and frontend development journey.
 It focuses on building real-world business websites that are simple, attractive, and user-friendly.
 
 ---
+## 🌐 Live Demo
 
-##
-🔗 Netlify Live Demo
-👉 [View Bakery Website](bake-theory.netlify.app)
+👉 Netlify: [View Bakery Website](bake-theory.netlify.app)
 
-## 
-🌐 GitHub Pages:
-👉 [View Bakery Website](https://praseethasathish28-ux.github.io/bakery-website-ui/)
+👉 GitHub Pages: [View Bakery Website](https://praseethasathish28-ux.github.io/bakery-website-ui/)
+
 ---
 
 ## 💡 Future Improvements
